@@ -29,3 +29,39 @@
         <a href="#" class="btn">More About</a>
     </div>
 </section>
+
+<!-- ---Service Section Design--- -->
+<section class="services" id="services">
+    <div class="main-text">
+        <p>What I am Expert In</p>
+        <h2><span>My</span> Services</h2>
+    </div>
+    <div class="services-content">
+        <div class="box">
+            <div class="s-icons">
+                <i class="material-icons">phonelink_ring</i>
+            </div>
+            <h3>Web Design</h3>
+            <p>One wat to categorize the activities is in terms of the professional´s area of expertise such as competitive analysis, corparate strategy.</p>
+            <a href="#" class="read">Read More</a>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class="material-icons">code</i>
+            </div>
+            <h3>Web Development</h3>
+            <p>One wat to categorize the activities is in terms of the professional´s area of expertise such as competitive analysis, corparate strategy.</p>
+            <a href="#" class="read">Read More</a>
+        </div>
+
+        <div class="box">
+            <div class="s-icons">
+                <i class="material-icons">create</i>
+            </div>
+            <h3>Creative Design</h3>
+            <p>One wat to categorize the activities is in terms of the professional´s area of expertise such as competitive analysis, corparate strategy.</p>
+            <a href="#" class="read">Read More</a>
+        </div>
+    </div>
+</section>
