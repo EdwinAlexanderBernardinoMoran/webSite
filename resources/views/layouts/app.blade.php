@@ -14,6 +14,8 @@
 </head>
 <body>
 
+    @include('layouts.navigation')
+
     {{ $slot }}
 
     @livewireScripts()
