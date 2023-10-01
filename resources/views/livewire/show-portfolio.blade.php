@@ -65,3 +65,67 @@
         </div>
     </div>
 </section>
+
+<!-- --Portfolio Section Design--- -->
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <p>Portfolio</p>
+        <h2><span>Latest</span> Project</h2>
+    </div>
+
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Visual Design</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <a href="#"><i class="material-icons">open_in_new</i></a>
+            </div>
+        </div>
+    </div>
+</section>
