@@ -129,3 +129,36 @@
         </div>
     </div>
 </section>
+
+<!-- --Contact Section Design--- -->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h4>If You Have Any Project In Your Mind.</h4>
+        <p>I´m a FullStack Developer - creating bold & brave interface design for companies all across the wordl.</p>
+        <div class="list">
+            <li><a href="#">+503 6065-6575</a></li>
+            <li><a href="#">edwinalexanderbernardinomoran@gmail.com</a></li>
+            <li><a href="#">Like Shared & Subscribe</a></li>
+        </div>
+
+        <div class="contact-icons">
+            <a href="#"><i class="material-icons">call</i></a>
+            <a href="#"><i class="material-icons">mail_outline</i></a>
+            <a href="#"><i class="material-icons">account_circle</i></a>
+            <a href="#"><i class="material-icons">chat</i></a>
+        </div>
+    </div>
+
+
+
+    <div class="contact-form">
+        <form action="" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email Address">
+            <input name="number" placeholder="Your Mobile Number" required>
+            <textarea name="body" id="" cols="30" rows="10" placeholder="How Can I Help You" required></textarea>
+            <input type="submit" value="Send Message" class="submit">
+        </form>
+    </div>
+</section>
