@@ -474,6 +474,10 @@ header.sticky{
     cursor: pointer;
 }
 
+footer{
+    padding: 160px 15% 120px;
+}
+
 .end{
     padding: 20px 15%;
     display: flex;
