@@ -7,8 +7,8 @@
     <title>Téc. Edwin Alexander</title>
 
     {{-- Estilos CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css', true) }}">
+    <link rel="stylesheet" href="{{ asset('css/icons.css', true) }}">
 
     @livewireStyles()
 </head>
@@ -22,6 +22,6 @@
 
     @livewireScripts()
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js', true) }}"></script>
 </body>
 </html>
