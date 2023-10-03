@@ -54,8 +54,8 @@ return [
     |
     */
 
-    // 'url' => env('APP_URL', 'http://localhost'),
-    'url' => env('APP_URL', 'https://website-production-718a.up.railway.app'),
+    'url' => env('APP_URL', 'http://localhost'),
+    // 'url' => env('APP_URL', 'https://website-production-718a.up.railway.app'),
 
     'asset_url' => env('ASSET_URL'),
 

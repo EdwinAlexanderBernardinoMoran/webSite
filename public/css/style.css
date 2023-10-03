@@ -24,7 +24,9 @@
     --second-bg-color: #202020;
     --text-color: #fff;
     --second-color: #ccc;
-    --main-color: #ff4d05;
+    /* --main-color: #ff4d05; */
+    --main-color: #238aff;
+    /* --main-color: #239cff; */
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
@@ -594,6 +596,72 @@ footer{
 
     .navlist.open{
         top: 100%;
+    }
+}
+
+/* .home-text h1{
+    font-size: var(--big-font);
+    font-weight: 700;
+    color: var(--text-color);
+    list-style: 1.1;
+    margin: 0 0 8px;
+}
+
+.home-text h3{
+    color: var(--text-color);
+    margin: 0 0 35px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+} */
+
+@media (max-width: 704px){
+    .home-text h1{
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 635px){
+    .home-text h1{
+        font-size: 4.0rem;
+    }
+
+    .home-text h3{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 565px){
+    .home-text h1{
+        font-size: 3.6rem;
+    }
+
+    .home-text h3{
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 509px){
+    :root{
+        --h2-font: 2.4rem;
+        --p-font: 1.1rem;
+    }
+    .home-text h1{
+        font-size: 3.2rem;
+    }
+
+    .home-text h3{
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 455px){
+    .home-text h1{
+        font-size: 2.5rem;
+    }
+
+    .home-text h3{
+        font-size: 1.6rem;
     }
 }
 
