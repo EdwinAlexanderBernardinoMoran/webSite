@@ -70,13 +70,13 @@
 
         <div class="widgets">
             <div class="contact-icons">
-                <a href="#"><i class="bx bxl-whatsapp"></i></a>
-                <a href="#"><i class="bx bxl-facebook"></i></a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
-                <a href="#"><i class="bx bxl-instagram"></i></a>
-                <a href="#"><i class="bx bxl-telegram"></i></a>
-                <a href="#"><i class="bx bxl-github"></i></a>
-                <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://wa.me/50360656575" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://www.facebook.com/edwinalexander.bernardinomoran.5" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://twitter.com/BernardinoMoran" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/edwinalexanderbernardinomoran/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://t.me/edwinbernardino" target="_blank"><i class="bx bxl-telegram"></i></a>
+                <a href="https://github.com/EdwinAlexanderBernardinoMoran" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/edwinbernardino/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
             </div>
         </div>
     </div>

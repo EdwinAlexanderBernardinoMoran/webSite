@@ -353,6 +353,11 @@ header.sticky{
     line-height: 1.8;
 }
 
+.links a{
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .layer i{
     color: var(--main-color);
     margin-top: 20px;

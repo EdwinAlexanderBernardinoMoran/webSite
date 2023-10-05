@@ -45,7 +45,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
 
@@ -54,7 +57,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
 
@@ -63,7 +69,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
 
@@ -72,7 +81,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
 
@@ -81,7 +93,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
 
@@ -90,7 +105,10 @@
             <div class="layer">
                 <h5>Visual Design</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <a href="#"><i class="bx bx-link-external"></i></a>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
         </div>
     </div>
