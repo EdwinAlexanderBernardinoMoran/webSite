@@ -223,7 +223,7 @@ header.sticky{
 }
 
 /* ---Servicios Section Desing--- */
-.services{
+.skills{
     background: var(--second-bg-color);
 }
 
@@ -242,7 +242,7 @@ header.sticky{
     line-height: 1;
 }
 
-.services-content{
+.skills-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
@@ -411,8 +411,18 @@ header.sticky{
     margin-bottom: 12px;
 }
 
+.font{
+    font-size: 2.1rem;
+    margin-right: 5px;
+}
+.list li{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
 .list li a{
-    display: block;
+    /* display: block; */
     color: var(--second-color);
     font-size: 14px;
     transition: all .45s ease;
@@ -424,8 +434,8 @@ header.sticky{
 }
 
 .contact-icons i{
-    height: 45px;
-    width: 45px;
+    height: 34px;
+    width: 34px;
     background: var(--main-color);
     color: var(--text-color);
     font-size: 22px;
@@ -477,6 +487,54 @@ header.sticky{
 }
 
 footer{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 60px;
+
+    /* padding: 160px 15% 120px; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rows{
+    width: 230px;
+    align-content: center;
+    align-self: center;
+    /* margin: 0px 30px; */
+}
+
+.rows > h4{
+    margin-bottom: 16px;
+}
+
+.mt{
+    margin-top: 30px;
+}
+
+.divider{
+    border: 0.1px solid #238aff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.widgets{
+    width: auto;
+    margin: 20px 0px;
+}
+
+
+
+/* footer{
     padding: 160px 15% 120px;
 }
 
@@ -490,18 +548,26 @@ footer{
     background: var(--bg-color);
 }
 
+*/
+
 .last-text p{
     color: var(--second-color);
-    font-size: 14px;
+    font-size: 13.5px;
+    padding-top: 10px;
 }
 
+.widget{
+    margin: 25px 0px;
+}
+
+/*
 .top i{
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
     color: var(--text-color);
     background: var(--main-color);
-}
+} */
 
 @media (max-width: 1280px) {
     header{
