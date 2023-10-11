@@ -7,22 +7,24 @@
     <title>Téc. Edwin Alexander</title>
 
     {{-- Estilos CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/style.css', true) }}">
-    <link rel="stylesheet" href="{{ asset('icons/css/boxicons.min.css', true) }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('icons/css/boxicons.min.css') }}">
 
     @livewireStyles()
 </head>
 <body>
 
     @include('layouts.navigation')
+    @include('layouts.content')
 
     {{ $slot }}
 
+
     @include('layouts.footer')
 
-    @livewireScripts()
 
-    <script src="{{ asset('js/app.js', true) }}"></script>
-    <script src="{{ asset('icons/dist/boxicons.js', true) }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('icons/dist/boxicons.js') }}"></script>
+    @livewireScripts()
 </body>
 </html>
