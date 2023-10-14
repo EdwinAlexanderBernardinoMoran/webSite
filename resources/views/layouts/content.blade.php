@@ -9,7 +9,7 @@
         <h3>FullStack <span>Developer.</span></h3>
         <p>Full Stack developer with experience in creating front-end <br> and back-end solutions.</p>
         <div class="button">
-            <a href="" class="btn">Download CV</a>
+            <a href="{{ asset('pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf') }}" download="/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf" class="btn">Download CV</a>
         </div>
     </div>
 </section>
@@ -118,6 +118,83 @@
         <h2><span>My</span> Skills</h2>
     </div>
     <div class="skills-content">
+        <div class="image">
+            <img src="{{ asset('skills/html.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/css.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/javascript.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/php.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/tyscript.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/nodejs.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/express.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/Angular1.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/laravel.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/laravel-livewire.jpg') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/bootstrap.jpg') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/materialize.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/mysql.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/postgresql.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/git.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/github.jpg') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/postman.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/code.png') }}" alt="">
+        </div>
+
+        <div class="image">
+            <img src="{{ asset('skills/linux.jpg') }}" alt="">
+        </div>
+    </div>
+    {{-- <div class="skills-content">
         <div class="box">
             <div class="s-icons">
                 <i class="bx bx-mobile-alt"></i>
@@ -144,5 +221,5 @@
             <p>One wat to categorize the activities is in terms of the professional´s area of expertise such as competitive analysis, corparate strategy.</p>
             <a href="#" class="read">Read More</a>
         </div>
-    </div>
+    </div> --}}
 </section>

@@ -2,6 +2,8 @@
 
 namespace App\Http\Livewire;
 
+use App\Mail\contactMail;
+use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
 class ShowPortfolio extends Component
@@ -12,12 +14,16 @@ class ShowPortfolio extends Component
     public $body = '';
 
     public function submitForm(){
-        $this->validate([
+        $dato = $this->validate([
             'name' => 'required',
             'email' => 'required',
             'number' => 'required',
             'body' => 'required',
         ]);
+
+        $correo = new contactMail($dato, $dato['email']);
+
+        Mail::to('edwinalexanderbernardinomoran@gmail.com')->send($correo);
 
         $this->reset();
     }
