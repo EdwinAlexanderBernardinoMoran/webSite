@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', \App\Http\Livewire\ShowPortfolio::class)->name('portfolio');
+// Route::get('/', \App\Http\Livewire\ShowPortfolio::class)->name('portfolio');
+Route::get('/', [PortfolioController::class, 'index'])->name('home');
+Route::post('/', [PortfolioController::class, 'store'])->name('store');
