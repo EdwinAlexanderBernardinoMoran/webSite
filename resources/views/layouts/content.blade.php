@@ -119,79 +119,79 @@
     </div>
     <div class="skills-content">
         <div class="image">
-            <img src="{{ asset('skills/html.png') }}" alt="">
+            <img src="{{ asset('skills/html.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/css.png') }}" alt="">
+            <img src="{{ asset('skills/css.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/javascript.png') }}" alt="">
+            <img src="{{ asset('skills/javascript.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/php.png') }}" alt="">
+            <img src="{{ asset('skills/php.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/tyscript.png') }}" alt="">
+            <img src="{{ asset('skills/tyscript.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/nodejs.png') }}" alt="">
+            <img src="{{ asset('skills/nodejs.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/express.png') }}" alt="">
+            <img src="{{ asset('skills/express.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/Angular1.png') }}" alt="">
+            <img src="{{ asset('skills/Angular1.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/laravel.png') }}" alt="">
+            <img src="{{ asset('skills/laravel.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/laravel-livewire.jpg') }}" alt="">
+            <img src="{{ asset('skills/laravel-livewire.jpg'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/bootstrap.jpg') }}" alt="">
+            <img src="{{ asset('skills/bootstrap.jpg'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/materialize.png') }}" alt="">
+            <img src="{{ asset('skills/materialize.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/mysql.png') }}" alt="">
+            <img src="{{ asset('skills/mysql.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/postgresql.png') }}" alt="">
+            <img src="{{ asset('skills/postgresql.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/git.png') }}" alt="">
+            <img src="{{ asset('skills/git.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/github.jpg') }}" alt="">
+            <img src="{{ asset('skills/github.jpg'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/postman.png') }}" alt="">
+            <img src="{{ asset('skills/postman.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/code.png') }}" alt="">
+            <img src="{{ asset('skills/code.png'), true }}" alt="">
         </div>
 
         <div class="image">
-            <img src="{{ asset('skills/linux.jpg') }}" alt="">
+            <img src="{{ asset('skills/linux.jpg'), true }}" alt="">
         </div>
     </div>
     {{-- <div class="skills-content">
