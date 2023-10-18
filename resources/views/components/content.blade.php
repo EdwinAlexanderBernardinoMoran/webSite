@@ -9,7 +9,7 @@
         <h3>FullStack <span>Developer.</span></h3>
         <p>Full Stack developer with experience in creating front-end <br> and back-end solutions.</p>
         <div class="button">
-            <a href="{{ asset('pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf') }}" download="/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf" class="btn">Download CV</a>
+            <a href="{{ route('dowlader') }}" class="btn">Download CV</a>
         </div>
     </div>
 </section>
@@ -17,7 +17,7 @@
 <!-- ---About Section Design--- -->
 <section class="about" id="about">
     <div class="about-img">
-        <img src="./img/edwin_edit.png" alt="about" width="400px" height="570px">
+        <img src="./img/edwin_edit.png" alt="about" width="400px" height="570px" loading="lazy">
     </div>
 
     <div class="about-text">

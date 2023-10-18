@@ -18,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PortfolioController::class, 'index'])->name('home');
 Route::post('/', [PortfolioController::class, 'store'])->name('store');
 
+Route::get('/descargar-pdf', [PortfolioController::class, 'dowloader'])->name('dowlader');
+
+

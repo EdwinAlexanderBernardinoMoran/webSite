@@ -6,6 +6,7 @@ use App\Http\Requests\StoreRequest;
 use App\Mail\contactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
 
 class PortfolioController extends Controller
 {
@@ -25,5 +26,9 @@ class PortfolioController extends Controller
         Mail::to('edwinalexanderbernardinomoran@gmail.com')->send($gmail);
 
         return response()->json(['mensaje' => 'Formulario enviado con éxito']);
+    }
+
+    public function dowloader(){
+        return response()->download(public_path('/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf'));
     }
 }
