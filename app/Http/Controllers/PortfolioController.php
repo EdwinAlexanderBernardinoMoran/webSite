@@ -27,10 +27,4 @@ class PortfolioController extends Controller
 
         return response()->json(['mensaje' => 'Formulario enviado con éxito']);
     }
-
-    public function dowloader(){
-
-        $file = public_path('/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf');
-        return response()->download($file);
-    }
 }
