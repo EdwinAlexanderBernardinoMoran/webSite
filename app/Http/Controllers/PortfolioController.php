@@ -29,6 +29,8 @@ class PortfolioController extends Controller
     }
 
     public function dowloader(){
-        return response()->download(public_path('/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf'));
+
+        $file = public_path('/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf');
+        return response()->download($file);
     }
 }
