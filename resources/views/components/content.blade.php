@@ -40,7 +40,7 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Student Attendance API</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -52,7 +52,7 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Assistance system</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -64,7 +64,7 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Country search application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -76,7 +76,7 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Gif search application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -88,7 +88,7 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Web application adding functionality of an online store with JavaScript</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -100,7 +100,19 @@
         <div class="row">
             <img src="./img/project.jpg" alt="">
             <div class="layer">
-                <h5>Visual Design</h5>
+                <h5>Forum web application</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="./img/project.jpg" alt="">
+            <div class="layer">
+                <h5>Blog web application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
