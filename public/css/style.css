@@ -268,13 +268,13 @@ header.sticky{
 
 }
 
-.skills-content > .image > img{
+/* .skills-content > .image > svg{
     width: 4.5rem;
     border-radius: 50%;
     border: 2px solid #fff;
     cursor: pointer;
     transition: 0.5s;
-}
+} */
 
 .skills-content > .image > img:hover{
     transform: scale(1.1);
