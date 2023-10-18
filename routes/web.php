@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PortfolioController;
+use App\Mail\contactMail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', \App\Http\Livewire\ShowPortfolio::class)->name('portfolio');
 Route::get('/', [PortfolioController::class, 'index'])->name('home');
 Route::post('/', [PortfolioController::class, 'store'])->name('store');
+

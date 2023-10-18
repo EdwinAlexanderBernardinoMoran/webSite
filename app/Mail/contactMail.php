@@ -22,12 +22,14 @@ class contactMail extends Mailable
 
 
     public $datos;
-    public $email = 'fulanito@gmail.com';
+    public $email;
+    public $name;
 
-    public function __construct($datos, $email)
+    public function __construct($datos, $email, $name)
     {
         $this->datos = $datos;
         $this->email = $email;
+        $this->name = $name;
     }
 
     /**
@@ -38,8 +40,8 @@ class contactMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            from: new Address('edwinalexander123@gmail.com', 'Correo de prueva'),
-            subject: 'Contact Mail',
+            from: new Address($this->email, $this->name),
+            subject: 'Oportunidad Laboral Para Desarrollo De Software',
         );
     }
 
@@ -52,6 +54,10 @@ class contactMail extends Mailable
     {
         return new Content(
             view: 'email.contact',
+            with: [
+                'data' => $this->datos,
+                'name' => $this->name
+            ]
         );
     }
 
