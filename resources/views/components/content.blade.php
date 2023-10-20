@@ -40,7 +40,7 @@
         {{-- Web Site Guanasoft --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/guanasoft.png') }}" alt="guanasoft">
+                <img src="{{ asset('img/guanasoft.png', true) }}" alt="guanasoft">
             </div>
             <div class="layer2">
             </div>
@@ -56,7 +56,7 @@
         {{-- Web Site SyGInversiones --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/syginversiones.png') }}" alt="syginversiones">
+                <img src="{{ asset('img/syginversiones.png', true) }}" alt="syginversiones">
             </div>
             <div class="layer2">
             </div>
@@ -73,7 +73,7 @@
         {{-- API Asistencias --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/api.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/api.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -89,7 +89,7 @@
 
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -106,7 +106,7 @@
         {{-- Web Site Countries --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/countries.png') }}" alt="countries">
+                <img src="{{ asset('img/countries.png', true) }}" alt="countries">
             </div>
             <div class="layer2">
             </div>
@@ -123,7 +123,7 @@
         {{-- Web Site Gifs --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -139,7 +139,7 @@
 
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -156,7 +156,7 @@
         {{-- Web Site Foro --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/foro.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/foro.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -173,7 +173,7 @@
         {{-- Web Site Comments --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/comments.png') }}" alt="gifSearch">
+                <img src="{{ asset('img/comments.png', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -190,7 +190,7 @@
         {{-- Web Site Blog --}}
         {{-- <div class="row">
             <div class="img">
-                <img src="{{ asset('img/project.jpg') }}" alt="gifSearch">
+                <img src="{{ asset('img/project.jpg', true) }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
