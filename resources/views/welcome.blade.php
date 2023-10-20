@@ -3,8 +3,8 @@
     <section class="contact" id="contact">
         <div class="contact-text">
             <h2>¡Contác<span>tame!</span></h2>
-            <h4>If You Have Any Project In Your Mind.</h4>
-            <p>I´m a FullStack Developer - creating bold & brave interface design for companies all across the wordl.</p>
+            <h4>Si tienes un proyecto en mente, estás a un paso de la innovación!</h4>
+            <p>Como desarrollador FullStack, estoy listo para ayudar a que tu visión cobre vida. ¡Hablemos!</p>
             <div class="list">
                 <li><i class="font bx bx-map"></i><a href="#">El Salvador, Sonsonate, Nahuizalco</a></li>
                 <li><i class="font bx bxs-phone-call"></i><a href="#">+503 6065-6575</a></li>

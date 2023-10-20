@@ -554,10 +554,10 @@ header.sticky{
     padding-top: 60px;
     padding-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "widget-1 widget-2 widget-3 widget-4"
-                         "divider divider divider divider"
-                         "copy copy links links";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "widget-1 widget-2 widget-3"
+                         "divider divider divider"
+                         "copy links links";
     gap: 25px;
     /* border: 1px solid #ff004f; */
 
@@ -576,9 +576,9 @@ header.sticky{
     grid-area: widget-3;
 }
 
-.footer .widget-4{
+/* .footer .widget-4{
     grid-area: widget-4;
-}
+} */
 
 .contenido   > h4{
     margin-bottom: 16px;
@@ -665,12 +665,12 @@ header.sticky{
     }
 
     .footer{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "widget-1 widget-1 widget-1"
-                             "widget-2 widget-3 widget-4"
-                             "divider divider divider"
-                             "links links links"
-                             "copy copy copy";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "widget-1 widget-1"
+                             "widget-2 widget-3"
+                             "divider divider"
+                             "links links"
+                             "copy copy";
         gap: 8px;
     }
 
@@ -778,7 +778,6 @@ header.sticky{
         grid-template-areas: "widget-1"
                              "widget-2"
                              "widget-3"
-                             "widget-4"
                              "divider"
                              "links"
                              "copy";

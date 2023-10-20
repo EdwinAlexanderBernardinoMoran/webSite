@@ -9,7 +9,6 @@
 </footer> --}}
 
 <footer class="footer">
-
     <div class="widget-1">
         <div class="contenido">
             <a href="#" class="logo">Cod<span>e</span>r.</a>
@@ -49,7 +48,7 @@
         </div>
     </div>
 
-    <div class="widget-4">
+    {{-- <div class="widget-4">
         <div class="contenido">
             <h4>Portafolio</h4>
 
@@ -60,7 +59,7 @@
                 <li><i class="font bx bx-chevron-right"></i><a href="#">Skills</a></li>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="divider"></div>
     <div class="copy">
         <div class="widgets">

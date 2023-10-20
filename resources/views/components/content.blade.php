@@ -9,7 +9,7 @@
         <h3>FullStack <span>Developer.</span></h3>
         <p>Desarrollador Full Stack con experiencia en creación de <br> aplicaciones web front-end y soluciones back-end.</p>
         <div class="button">
-            <a href="{{ asset('pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf', true) }}" target="_blank" download="/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf" class="btn">Descargar CV</a>
+            <a href="{{ asset('pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf', true, true) }}" target="_blank" download="/pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf" class="btn">Descargar CV</a>
         </div>
     </div>
 </section>
@@ -24,8 +24,8 @@
         <h2>Sobre <span>Mí</span></h2>
         <h4>Desarrollo Web Creativo</h4>
 
-        <p>Mi nombre es Edwin Alexander Bernardino Moŕan, soy Técnico En Ingenieria En Desarrollo De Software, con conocimiento en tecnologias back-end y front-end</p>
-        <a href="#" class="btn">More About</a>
+        <p>Si tienes un proyecto en mente, estás a un paso de la innovación. Permíteme ayudarte a hacer realidad tus ideas. ¡Hablemos y demos vida a tu visión!", Hola! soy Edwin Alexander Bernardino Moŕan, soy Técnico En Ingenieria En Desarrollo De Software, con conocimiento en tecnologias back-end y front-end, me gusta el mundo de la programacion y el desarrollo web, he tenido la experiencia en desarrollar aplicaciones web fullstack</p>
+        {{-- <a href="#" class="btn">More About</a> --}}
     </div>
 </section>
 
@@ -187,23 +187,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- Web Site Blog --}}
-        {{-- <div class="row">
-            <div class="img">
-                <img src="{{ asset('img/project.jpg', true) }}" alt="gifSearch">
-            </div>
-            <div class="layer2">
-            </div>
-            <div class="layer">
-                <h5>Blog web application</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
-                <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/CURSO_LARAVEL_9/tree/development/blog"><i class="bx bxl-github"></i></a>
-                </div>
-            </div>
-        </div> --}}
     </div>
 </section>
 
