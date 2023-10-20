@@ -335,9 +335,9 @@ header.sticky{
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 3rem;
     margin-top: 5rem;
 }
 
@@ -346,18 +346,13 @@ header.sticky{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    height: 350px;
     background-color: rgba(35,138,255, 0.07);
-    box-shadow: 1px 1px 5px white;
+    box-shadow: 2px 2px 4px white;
     /* border: 1px solid white; */
 }
 
-.row > .img{
-    position: absolute;
-    top: 100px;
-}
-
 .row img{
+    margin: 1.5rem 0;
     width: 100%;
     border-radius: 8px;
     display: block;
@@ -375,6 +370,8 @@ header.sticky{
     bottom: 0;
     overflow: hidden;
     display: flex;
+
+    padding: 0 4px;
     transition: height 0.5s;
 }
 
@@ -728,6 +725,10 @@ header.sticky{
 }
 
 @media (max-width: 820px) {
+    .portfolio-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     #menu-icon{
         display: block;
     }
@@ -824,5 +825,25 @@ header.sticky{
 
     .home-text h3{
         font-size: 1.6rem;
+    }
+
+    .last-text p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .contact-icons i{
+        height: 26px;
+        width: 26px;
+        background: var(--main-color);
+        color: var(--text-color);
+        font-size: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-right: 5px;
+        transition: all .45s ease;
     }
 }

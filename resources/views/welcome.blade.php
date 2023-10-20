@@ -2,7 +2,7 @@
     <!-- --Contact Section Design--- -->
     <section class="contact" id="contact">
         <div class="contact-text">
-            <h2>Contact <span>Me!</span></h2>
+            <h2>¡Contác<span>tame!</span></h2>
             <h4>If You Have Any Project In Your Mind.</h4>
             <p>I´m a FullStack Developer - creating bold & brave interface design for companies all across the wordl.</p>
             <div class="list">
@@ -15,11 +15,11 @@
         <div class="contact-form">
             <form method="POST" id="miFormulario">
                 @csrf
-                <input type="text" name="user" id="user" placeholder="Your Name" required>
-                <input type="email" name="email" id="email" placeholder="Your Email Address" required>
-                <input type="text" name="phone" id="phone" placeholder="Your Mobile Number" required>
-                <textarea cols="30" name="body" id="body" rows="10" placeholder="How Can I Help You" required></textarea>
-                <input type="submit" value="Send Message" class="submit">
+                <input type="text" name="user" id="user" placeholder="Escribe tu nombre" required>
+                <input type="email" name="email" id="email" placeholder="Escribe tu direccion de correo electronico" required>
+                <input type="text" name="phone" id="phone" placeholder="Escribe tu numero de telefono" required>
+                <textarea cols="30" name="body" id="body" rows="10" placeholder="Dime en que puedo ayudarte" required></textarea>
+                <input type="submit" value="Contactar" class="submit">
             </form>
 
             <div id="resultado"></div>

@@ -2,14 +2,14 @@
 <section class="home">
     <div class="home-text">
         <div class="slide">
-            <span class="one">Hello</span>
-            <span class="two">I'm</span>
+            <span class="one">Hola</span>
+            <span class="two">soy</span>
         </div>
         <h1>Edwin Alexander</h1>
         <h3>FullStack <span>Developer.</span></h3>
-        <p>Full Stack developer with experience in creating front-end <br> and back-end solutions.</p>
+        <p>Desarrollador Full Stack con experiencia en creación de <br> aplicaciones web front-end y soluciones back-end.</p>
         <div class="button">
-            <a href="{{ asset('pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf') }}" target="_blank" download="/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf" class="btn">Download CV</a>
+            <a href="{{ asset('pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf') }}" target="_blank" download="/pdf/Edwin_Alexander_Bernardino_Morán_CV.pdf" class="btn">Descargar CV</a>
         </div>
     </div>
 </section>
@@ -21,8 +21,8 @@
     </div>
 
     <div class="about-text">
-        <h2>About <span>Me</span></h2>
-        <h4>Creative Development Web</h4>
+        <h2>Sobre <span>Mí</span></h2>
+        <h4>Desarrollo Web Creativo</h4>
 
         <p>Mi nombre es Edwin Alexander Bernardino Moŕan, soy Técnico En Ingenieria En Desarrollo De Software, con conocimiento en tecnologias back-end y front-end</p>
         <a href="#" class="btn">More About</a>
@@ -32,23 +32,23 @@
 <!-- --Portfolio Section Design--- -->
 <section class="portfolio" id="portfolio">
     <div class="main-text">
-        <p>Portfolio</p>
-        <h2><span>Latest</span> Project</h2>
+        <p>Portafolio</p>
+        <h2><span>Mis</span> Proyectos</h2>
     </div>
 
     <div class="portfolio-content">
         {{-- Web Site Guanasoft --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/guanasoft.png', true) }}" alt="guanasoft">
+                <img src="{{ asset('img/guanasoft.png') }}" alt="guanasoft">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>guanasoft website</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Sitio web de Guanasoft</h5>
+                <p>Un web corporativa que refleja la marca Guanasoft de la empresa S&GInversiones y ofrece sus servicios</p>
                 <div class="links">
-                    <a href="https://www.guanasoft.com/"><i class="bx bx-link-external"></i></a>
+                    <a href="https://www.guanasoft.com/" target="_blank"><i class="bx bx-link-external"></i></a>
                 </div>
             </div>
         </div>
@@ -56,15 +56,15 @@
         {{-- Web Site SyGInversiones --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/syginversiones.png', true) }}" alt="syginversiones">
+                <img src="{{ asset('img/syginversiones.png') }}" alt="syginversiones">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>syginversiones website</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Sitio web de S&GInversiones</h5>
+                <p>Un web de la empresa S&GInversiones que refleja la identidad de su empresa y ofrece una su productos</p>
                 <div class="links">
-                    <a href="https://www.syginversiones.com"><i class="bx bx-link-external"></i></a>
+                    <a href="https://www.syginversiones.com" target="_blank"><i class="bx bx-link-external"></i></a>
                     {{-- <a href="#"><i class="bx bxl-github"></i></a> --}}
                 </div>
             </div>
@@ -73,32 +73,33 @@
         {{-- API Asistencias --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/api.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/api.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Academic record API</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>API del sistema de asistencias</h5>
+                <p>API del sistema de asistencias del Instituto Nacional De Sonzacate (I.N.S.O) que permite gestionar y registrar la asistencia de estudiantes y personal de manera eficiente y precisa.</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="https://backendinso-production.up.railway.app/api/v1/department" target="_blank"><i class="bx bx-link-external"></i></a>
+                    {{-- <a href="#"><i class="bx bxl-github"></i></a> --}}
                 </div>
             </div>
         </div>
 
+        {{-- Sistema de Asistencia --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/sistema-de-asistencias.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Academic registration system</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Sistema de asistencias</h5>
+                <p>Sistema de asistencias del instituto que utiliza una API para registrar y gestionar la asistencia de manera automatizada y en tiempo real."</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/inso_asistencia" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
@@ -106,16 +107,16 @@
         {{-- Web Site Countries --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/countries.png', true) }}" alt="countries">
+                <img src="{{ asset('img/countries.png') }}" alt="countries">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Country search application</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Aplicacion web de busqueda de paises</h5>
+                <p>Una aplicación web que facilita la búsqueda de países por capital, nombre y región, proporcionando información detallada de manera rápida y sencilla."</p>
                 <div class="links">
                     {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
-                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/countryApp"><i class="bx bxl-github"></i></a>
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/countryApp" target="_blanck"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
@@ -123,23 +124,23 @@
         {{-- Web Site Gifs --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Gif search application</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Aplicacion web de busqueda de Gifs</h5>
+                <p>Una aplicación web que te permite encontrar y compartir gifs divertidos y expresivos para animar tus conversaciones en línea."</p>
                 <div class="links">
                     {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
-                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/gifs-app"><i class="bx bxl-github"></i></a>
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/gifs-app" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -151,21 +152,21 @@
                     <a href="#"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         {{-- Web Site Foro --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/foro.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/foro.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Forum web application</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Aplicación web de un Foro</h5>
+                <p>Una aplicación web de foro que permite a los usuarios discutir y compartir ideas en comunidades temáticas interactivas.</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/FORO"><i class="bx bxl-github"></i></a>
+                    {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/FORO" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
@@ -173,15 +174,15 @@
         {{-- Web Site Comments --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/comments.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/comments.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
             <div class="layer">
-                <h5>Comments web application</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <h5>Aplicación web de comentarios</h5>
+                <p>Una aplicación web de comentarios que permite a los usuarios compartir opiniones y retroalimentación de forma interactiva y colaborativa.</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
                     <a href="https://github.com/EdwinAlexanderBernardinoMoran/comments" target="_blank"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
@@ -190,7 +191,7 @@
         {{-- Web Site Blog --}}
         {{-- <div class="row">
             <div class="img">
-                <img src="{{ asset('img/project.jpg', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/project.jpg') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -209,8 +210,8 @@
 <!-- ---Skills Section Design--- -->
 <section class="skills" id="skills">
     <div class="main-text">
-        <p>What I am Expert In</p>
-        <h2><span>My</span> Skills</h2>
+        <p>Cuento con experiencia en</p>
+        <h2><span>Mis</span> habilidades</h2>
     </div>
     <div class="skills-content">
         <div class="image">
