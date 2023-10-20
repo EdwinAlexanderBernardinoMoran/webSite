@@ -37,10 +37,48 @@
     </div>
 
     <div class="portfolio-content">
+        {{-- Web Site Guanasoft --}}
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/guanasoft.png') }}" alt="guanasoft">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
-                <h5>Student Attendance API</h5>
+                <h5>guanasoft website</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <div class="links">
+                    <a href="https://www.guanasoft.com/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+
+        {{-- Web Site SyGInversiones --}}
+        <div class="row">
+            <div class="img">
+                <img src="{{ asset('img/syginversiones.png') }}" alt="syginversiones">
+            </div>
+            <div class="layer2">
+            </div>
+            <div class="layer">
+                <h5>syginversiones website</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <div class="links">
+                    <a href="https://www.syginversiones.com"><i class="bx bx-link-external"></i></a>
+                    {{-- <a href="#"><i class="bx bxl-github"></i></a> --}}
+                </div>
+            </div>
+        </div>
+
+        {{-- API Asistencias --}}
+        <div class="row">
+            <div class="img">
+                <img src="{{ asset('img/api.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
+            <div class="layer">
+                <h5>Academic record API</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -50,9 +88,13 @@
         </div>
 
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
-                <h5>Assistance system</h5>
+                <h5>Academic registration system</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
@@ -61,32 +103,46 @@
             </div>
         </div>
 
+        {{-- Web Site Countries --}}
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/countries.png') }}" alt="countries">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
                 <h5>Country search application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/countryApp"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
 
+        {{-- Web Site Gifs --}}
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
                 <h5>Gif search application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    {{-- <a href="#"><i class="bx bx-link-external"></i></a> --}}
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/gifs-app"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
                 <h5>Web application adding functionality of an online store with JavaScript</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
@@ -97,29 +153,56 @@
             </div>
         </div>
 
+        {{-- Web Site Foro --}}
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/foro.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
                 <h5>Forum web application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/FORO"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
         </div>
 
+        {{-- Web Site Comments --}}
         <div class="row">
-            <img src="./img/project.jpg" alt="">
+            <div class="img">
+                <img src="{{ asset('img/comments.png') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
+            <div class="layer">
+                <h5>Comments web application</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
+                <div class="links">
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/comments" target="_blank"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        {{-- Web Site Blog --}}
+        {{-- <div class="row">
+            <div class="img">
+                <img src="{{ asset('img/project.jpg') }}" alt="gifSearch">
+            </div>
+            <div class="layer2">
+            </div>
             <div class="layer">
                 <h5>Blog web application</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fugiat vero? Assumenda, est molestiae.</p>
                 <div class="links">
                     <a href="#"><i class="bx bx-link-external"></i></a>
-                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/CURSO_LARAVEL_9/tree/development/blog"><i class="bx bxl-github"></i></a>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 

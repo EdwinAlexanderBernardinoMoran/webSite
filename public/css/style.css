@@ -346,6 +346,15 @@ header.sticky{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    height: 350px;
+    background-color: rgba(35,138,255, 0.07);
+    box-shadow: 1px 1px 5px white;
+    /* border: 1px solid white; */
+}
+
+.row > .img{
+    position: absolute;
+    top: 100px;
 }
 
 .row img{
@@ -355,10 +364,24 @@ header.sticky{
     transition: transform 0.5s;
 }
 
+.layer2{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(#238aff, rgba(0,0,0,0.6));
+
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    transition: height 0.5s;
+}
+
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1), #238aff);
+    background: linear-gradient(#238aff, rgba(0,0,0,0.1));
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -374,14 +397,14 @@ header.sticky{
 }
 
 .layer h5{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .layer p{
     color: var(--second-color);
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.8;
 }
 
@@ -408,6 +431,10 @@ header.sticky{
 }
 
 .row:hover .layer{
+    height: 100%;
+}
+
+.row:hover .layer2{
     height: 100%;
 }
 
