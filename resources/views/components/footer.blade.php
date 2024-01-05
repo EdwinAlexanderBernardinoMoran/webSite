@@ -1,22 +1,12 @@
-<!-- --End Section Design--- -->
-{{-- <footer class="end">
-    <div class="last-text">
-        <p>&copy; Copyright by Edwin Alexander Bernardino Morán All Rights Reserved - {{ date('Y') }}.</p>
-    </div>
-    <div class="top">
-        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
-    </div>
-</footer> --}}
-
 <footer class="footer">
     <div class="widget-1">
         <div class="contenido">
             <a href="#" class="logo">Cod<span>e</span>r.</a>
 
             <div class="mt list">
-                <li><i class="font bx bx-map"></i><a href="#">El Salvador, Sonsonate, Nahuizalco, <br> Sabana San Juan Abajo</a></li>
-                <li><i class="font bx bxl-whatsapp"></i><a href="#">+503 6065-6575</a></li>
-                <li><i class="font bx bx-envelope"></i><a href="#">edwinalexanderbernardino<br>moran@gmail.com</a></li>
+                <li><i class="font bx bx-map"></i><a href="#contact">El Salvador, Sonsonate, Nahuizalco, <br> Sabana San Juan Abajo</a></li>
+                <li><i class="font bx bxl-whatsapp"></i><a href="#contact">+503 6065-6575</a></li>
+                <li><i class="font bx bx-envelope"></i><a href="#contact">edwinalexanderbernardino<br>moran@gmail.com</a></li>
             </div>
         </div>
     </div>
@@ -48,18 +38,6 @@
         </div>
     </div>
 
-    {{-- <div class="widget-4">
-        <div class="contenido">
-            <h4>Portafolio</h4>
-
-            <div class="list">
-                <li><i class="font bx bx-chevron-right"></i><a href="#">Home</a></li>
-                <li><i class="font bx bx-chevron-right"></i><a href="#">About Me</a></li>
-                <li><i class="font bx bx-chevron-right"></i><a href="#">Portfolio</a></li>
-                <li><i class="font bx bx-chevron-right"></i><a href="#">Skills</a></li>
-            </div>
-        </div>
-    </div> --}}
     <div class="divider"></div>
     <div class="copy">
         <div class="widgets">

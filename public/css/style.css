@@ -190,17 +190,46 @@ header.sticky{
 .about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: flex-start;
     align-items: center;
+
     gap: 1.5rem;
 }
 
-.about-img img{
-    /* Imagen debe de ser de 530px */
-    max-width: 400px;
-    /* height: auto; */
-    width: 100%;
-    border-radius: 8px;
+.about-img{
+    /* background-color: #238aff; */
+    /* position: relative; */
+    /* display: flex; */
+    /* align-items: end; */
+    /* justify-content: end; */
+    /* width: 100%; */
+    /* max-width: 200px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border-radius: 50%; */
 }
+
+.about-image{
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(209, 219, 189, 0.5);
+    margin-right: 80px;
+    width: 375px;
+    height: 375px;
+    background-image: url(../img/edwin.jpeg);
+    background-size: 375px;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+.about-image > div{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24,25,27, 0.4);
+
+  }
 
 .about-text h2{
     font-size: var(--h2-font);
@@ -268,19 +297,10 @@ header.sticky{
 
 }
 
-/* .skills-content > .image > svg{
-    width: 4.5rem;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    cursor: pointer;
-    transition: 0.5s;
-} */
-
 .skills-content > .image > img:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
-
 
 .box{
     background: var(--bg-color);
@@ -549,7 +569,7 @@ header.sticky{
 
 .footer{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 20px;
@@ -559,13 +579,12 @@ header.sticky{
                          "divider divider divider"
                          "copy links links";
     gap: 25px;
-    /* border: 1px solid #ff004f; */
 
 }
 
 .footer .widget-1{
     grid-area: widget-1;
-    /* border: 1px solid #238aff; */
+    padding-left: 70px;
 }
 
 .footer .widget-2{
@@ -576,12 +595,13 @@ header.sticky{
     grid-area: widget-3;
 }
 
-/* .footer .widget-4{
-    grid-area: widget-4;
-} */
-
 .contenido   > h4{
     margin-bottom: 16px;
+}
+
+.widget-2, .widget-3 {
+    display: flex;
+    justify-content: center;
 }
 
 .mt{
@@ -607,33 +627,11 @@ header.sticky{
     padding-right: 14px;
 }
 
-/*
-.end{
-    padding: 20px 15%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    background: var(--bg-color);
-}
-
-*/
-
 .last-text p{
     color: var(--second-color);
     font-size: 13.5px;
     padding-top: 10px;
 }
-
-/*
-.top i{
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 15px;
-    color: var(--text-color);
-    background: var(--main-color);
-} */
 
 @media (max-width: 1280px) {
     header{
@@ -710,13 +708,13 @@ header.sticky{
 
     .about-img{
         text-align: center;
-        order: 2;
+        order: 1;
     }
 
-    .about-img img{
-        width: 100%;
-        height: auto;
-        max-width: 100%;
+    .about-image{
+        margin: auto;
+        width: 305px;
+        height: 305px;
     }
 
     .contact{

@@ -9,7 +9,7 @@
         <h3>FullStack <span>Developer.</span></h3>
         <p>Desarrollador Full Stack con experiencia en creación de <br> aplicaciones web front-end y soluciones back-end.</p>
         <div class="button">
-            <a href="{{ asset('pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf', true, true) }}" target="_blank" download="/pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf" class="btn">Descargar CV</a>
+            <a href="{{ asset('pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf') }}" target="_blank" download="/pdf/EDWIN-ALEXANDER-BERNARDINO-MORAN-CV.pdf" class="btn">Descargar CV</a>
         </div>
     </div>
 </section>
@@ -17,15 +17,21 @@
 <!-- ---About Section Design--- -->
 <section class="about" id="about">
     <div class="about-img">
-        <img src="./img/edwin_edit.png" alt="about" width="400px" height="570px" loading="lazy">
+        <div class="about-image">
+            <div></div>
+        </div>
     </div>
 
     <div class="about-text">
-        <h2>Sobre <span>Mí</span></h2>
-        <h4>Desarrollo Web Creativo</h4>
+        <h2>Sobre <span>M&iacute;</span></h2>
+        <h4>Desarrollo Web Creativo.</h4>
 
-        <p>Si tienes un proyecto en mente, estás a un paso de la innovación. Permíteme ayudarte a hacer realidad tus ideas. ¡Hablemos y demos vida a tu visión!", Hola! soy Edwin Alexander Bernardino Moŕan, soy Técnico En Ingenieria En Desarrollo De Software, con conocimiento en tecnologias back-end y front-end, me gusta el mundo de la programacion y el desarrollo web, he tenido la experiencia en desarrollar aplicaciones web fullstack</p>
-        {{-- <a href="#" class="btn">More About</a> --}}
+        <p>Si tienes un proyecto en mente, est&aacute;s a un paso de la innovación. Perm&iacute;teme ayudarte a hacer realidad tus ideas. ¡Hablemos y demos vida a tu visi&oacute;n!", Hola! soy Edwin Alexander Bernardino Mor&aacute;n, soy T&eacute;cnico En Ingenier&iacute;a En Desarrollo De Software, con conocimiento en tecnologias back-end y front-end, me gusta el mundo de la programacion y el desarrollo web, he tenido la experiencia en desarrollar aplicaciones web fullstack</p>
+
+        <h4>Experiencia Laboral.</h4>
+
+
+        <p>He adquirido experiencia laboral colaborando con C&eacute;sar Garc&eacute;s en el pa&iacute;s de Chile para la empresa BeePro. Durante este tiempo, utilicé la tecnología de Laravel para ofrecer servicios y participé activamente en el desarrollo de aplicaciones web fullstack.</p>
     </div>
 </section>
 
@@ -40,7 +46,7 @@
         {{-- Web Site Guanasoft --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/guanasoft.png', true) }}" alt="guanasoft">
+                <img src="{{ asset('img/guanasoft.png') }}" alt="guanasoft">
             </div>
             <div class="layer2">
             </div>
@@ -56,7 +62,7 @@
         {{-- Web Site SyGInversiones --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/syginversiones.png', true) }}" alt="syginversiones">
+                <img src="{{ asset('img/syginversiones.png') }}" alt="syginversiones">
             </div>
             <div class="layer2">
             </div>
@@ -73,7 +79,7 @@
         {{-- API Asistencias --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/api.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/api.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -90,7 +96,7 @@
         {{-- Sistema de Asistencia --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/sistema-de-asistencias.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/sistema-de-asistencias.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -107,7 +113,7 @@
         {{-- Web Site Countries --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/countries.png', true) }}" alt="countries">
+                <img src="{{ asset('img/countries.png') }}" alt="countries">
             </div>
             <div class="layer2">
             </div>
@@ -124,7 +130,7 @@
         {{-- Web Site Gifs --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -140,7 +146,7 @@
 
         {{-- <div class="row">
             <div class="img">
-                <img src="{{ asset('img/gifs.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/gifs.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -157,7 +163,7 @@
         {{-- Web Site Foro --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/foro.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/foro.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -174,7 +180,7 @@
         {{-- Web Site Comments --}}
         <div class="row">
             <div class="img">
-                <img src="{{ asset('img/comments.png', true) }}" alt="gifSearch">
+                <img src="{{ asset('img/comments.png') }}" alt="gifSearch">
             </div>
             <div class="layer2">
             </div>
@@ -194,7 +200,7 @@
 <section class="skills" id="skills">
     <div class="main-text">
         <p>Cuento con experiencia en</p>
-        <h2><span>Mis</span> habilidades</h2>
+        <h2><span>T&eacute;cnologias</span> Frontend y Backend</h2>
     </div>
     <div class="skills-content">
         <div class="image">
