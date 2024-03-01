@@ -43,6 +43,39 @@
     </div>
 
     <div class="portfolio-content">
+
+        {{-- App Heroes Angular --}}
+        <div class="row">
+            <div class="img">
+                <img src="{{ asset('img/heroes.png') }}" alt="heroes">
+            </div>
+            <div class="layer2">
+            </div>
+            <div class="layer">
+                <h5>Proyecto listado de heroes</h5>
+                <p>Una aplicacion de un crud de Heroes, desarrollado con Angular</p>
+                <div class="links">
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/heroesApp" target="_blank"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        {{-- Sistema De Asistencias--}}
+        <div class="row">
+            <div class="img">
+                <img src="{{ asset('img/asistencias.png') }}" alt="asistencias">
+            </div>
+            <div class="layer2">
+            </div>
+            <div class="layer">
+                <h5>Proyecto de Matriculas y Asistencias Educativo</h5>
+                <p>Una actualización del sistema de asistencias del Instituto Nacional De Sonzacate (I.N.S.O) que permite gestionar y registrar la asistencia de estudiantes y personal de manera eficiente y precisa.</p>
+                <div class="links">
+                    <a href="https://github.com/EdwinAlexanderBernardinoMoran/asistencias" target="_blank"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+        </div>
+
         {{-- Web Site Guanasoft --}}
         <div class="row">
             <div class="img">
